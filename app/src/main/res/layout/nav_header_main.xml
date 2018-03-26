@@ -27,7 +27,7 @@
         android:id="@+id/tvusernamer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Juana Maria Perez"
+        android:text="Nombre Usuario"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textStyle="bold" />
 
@@ -37,7 +37,7 @@
         style="@style/Widget.AppCompat.Spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="juanaperez01@gmail.com"
+        android:text="Correo Usuario"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
 </LinearLayout>
