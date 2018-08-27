@@ -7,6 +7,13 @@
             android:checked="true"
             android:icon="@mipmap/ic_profile"
             android:title="Perfil" />
+
+        <item
+            android:id="@+id/donacion"
+            android:checked="true"
+            android:icon="@mipmap/ic_donacion"
+            android:title="Donación" />
+
         <item
             android:id="@+id/help"
             android:icon="@mipmap/ic_help"

@@ -16,6 +16,7 @@ import android.support.v7.widget.Toolbar
 import android.util.Log
 import android.view.MenuItem
 import android.view.View
+import android.webkit.WebView
 import android.widget.*
 import com.android.volley.DefaultRetryPolicy
 import com.android.volley.Request
@@ -56,6 +57,7 @@ class DashboardActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
         //Obtener el dato enviado desde la ventana de Login
         val bundle = intent.extras
         name = bundle.get("usuario_").toString();
+
 
         drawer = findViewById<View>(R.id.drawer_layout) as DrawerLayout
         navigationView = findViewById<View>(R.id.nav_view) as NavigationView
@@ -185,6 +187,17 @@ class DashboardActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
         Toast.makeText(this, setToast, Toast.LENGTH_SHORT).show()
     }
 
+    fun showAlertDonacion(){
+        val alertDilog = AlertDialog.Builder(this)
+        val dialogoView = layoutInflater.inflate(R.layout.layout_donacion_alert, null)
+        val myWebView = dialogoView.findViewById<WebView>(R.id.WebViewDonacion)
+        myWebView.settings.javaScriptEnabled = true
+        myWebView.loadUrl("https://www.paypal.me/merino")
+        alertDilog.setView(dialogoView)
+        alertDilog.setCancelable(true)
+        alertDilog.show()
+    }
+
     //Muestra un alertDialogo personalizado cuando el usuario no ha completado toda la info
     fun showAlert(Ind: String){
         val alertDilog = AlertDialog.Builder(this)
@@ -261,7 +274,11 @@ class DashboardActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
             R.id.logout -> {
                 logoutRequest()
             }
+            R.id.donacion -> {
+                showAlertDonacion()
+            }
         }
+
         drawer?.closeDrawer(GravityCompat.START)
         return true
     }
