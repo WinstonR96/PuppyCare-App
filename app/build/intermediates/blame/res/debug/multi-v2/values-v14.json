@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\wrodriguez\\Documents\\AndroidProjects\\PuppyCare-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\wrodriguez\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\586e59ceca9f108d3c1e4d0b9475d75a\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2,7,8,9,15",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,331,402,485,895",
+                        "endLines": "6,7,8,14,20",
+                        "endColumns": "12,70,82,12,12",
+                        "endOffsets": "326,397,480,890,1312"
+                    }
+                }
+            ]
+        }
+    ]
+}
