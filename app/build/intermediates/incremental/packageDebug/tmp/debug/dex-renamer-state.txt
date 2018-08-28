@@ -1,4 +1,4 @@
-#Tue Aug 28 09:15:43 COT 2018
-base.0=C\:\\Users\\wrodriguez\\Documents\\AndroidProjects\\PuppyCare-App\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\17
+#Tue Aug 28 09:52:02 COT 2018
+base.0=C\:\\Users\\wrodriguez\\Documents\\AndroidProjects\\PuppyCare-App\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\34
 path.0=classes.dex
 renamed.0=classes.dex

@@ -1,6 +1,8 @@
-# PuppyCare App [![N|Solid](https://cdn1.iconfinder.com/data/icons/material-core/20/language-16.png)](https://puppycare.000webhostapp.com/)
+# MascotApp [![N|Solid](https://cdn1.iconfinder.com/data/icons/material-core/20/language-16.png)](https://puppycare.000webhostapp.com/)
 
-PuppyCare es una app Android, que nacio como un proyecto altruista que ha pasado por diferentes etapas hasta la app que es hoy en día. Actualmente la app cuenta con las siguiente funcionalidades:
+MascotApp es una app Android, que nacio como un proyecto altruista bajo el nombre de PuppyCare.
+Ha pasado por diferentes etapas, hasta llegar a renombrar la app bajo el nombre de MascotApp.
+Actualmente la app cuenta con las siguiente funcionalidades:
 
   - Adoptar
   - Realizar Donaciones

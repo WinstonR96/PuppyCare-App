@@ -1,7 +1,7 @@
 #Internal package file, do not edit.
-#Tue Aug 28 09:15:44 COT 2018
+#Tue Aug 28 09:52:03 COT 2018
 0.baseType=DIRECTORY
-0.base=C\:\\Users\\wrodriguez\\Documents\\AndroidProjects\\PuppyCare-App\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\17
+0.base=C\:\\Users\\wrodriguez\\Documents\\AndroidProjects\\PuppyCare-App\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\34
 0.path=classes.dex
 0.set=DEX
 count=1
